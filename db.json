@@ -2,31 +2,43 @@
   "posts": [
     {
       "id": 1,
-      "title": "Inaugurada temporada de corridas de cavalos Árabes de 2019",
+      "title": "The Young Black Stallion – O Jovem Corcel Negro",
+      "slug": "the-young-black-stallion–o-jovem-corcel-negro",
       "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/The-Young-Black-Stallion-01-370x247.jpg",
       "author": "Guilherme",
-      "slug": "inaugurada-temporada-de-corridas-de-cavalos-arabes-de-2019"
+      "cover": "https://avatars3.githubusercontent.com/u/10064190?s=400&u=41a3041f12d3fda9adfd4bc8386d9d6803e94c8d&v=4",
+      "resume": "Esse filme é uma espécie de prequel (filme anterior) de O Corcel Negro de 1979, que fez um enorme sucesso na época",
+      "content": "Neera (BianaTamimi) é uma menina árabe que foi separada do seu pai em sua terra natal durante a Segunda Guerra Mundial. Deixada sozinha no deserto, acaba fazendo amizade com um potro negro, ao qual ela dá o nome de Sheetan. Porém, com o passar do tempo ela reencontra o avô, Ben Ishak (Richard Romanus) e é obrigada a abandonar seu amigo de equino. Mas não será fácil esquecê-lo. Ela é perseguida pela imagem do animal perdido no deserto o tempo todo. Mais tarde, Neera descobre se tratar de uma lenda sobre um corcel nascido das areias do deserto. Passando a viver com o avô e a prima Aden (Patrick Elyas), a garota fica chateada ao descobrir que eles pararam de criar cavalos."
     },
     {
       "id": 2,
       "title": "Cavalos possuem comunicação vocal limitada, mas ela existe – parte 2",
+      "slug": "cavalos-possuem-comunicacao-vocal-limitada-mas-ela-existe-parte-2",
       "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/Cavalos-possuem-comunica%C3%A7%C3%A3o-vocal-limitada-mas-ela-existe-02-370x247.jpg",
       "author": "Leo Campos",
-      "slug": "cavalos-possuem-comunicacao-vocal-limitada-mas-ela-existe-parte-2"
+      "cover": "https://avatars3.githubusercontent.com/u/14942865?s=400&v=4",
+      "resume": "Todos os animais, seja qual for a espécie, passam muito tempo ‘falando’ entre si e com outros",
+      "content": "A interpretação humana dos sons do cavalo – clique aqui para saber quais são esses sons – precisa se dar de maneira cautelosa. Alguns autores acabam interpretando sons de maneira diferente ou criam sons intermediários, como ‘suspiro-chamado’, que pretendem decodificar como mensagens diversificadas – frustrações, excitamentos, brincadeiras, solidão. Todavia, sons supostamente decodificados podem ser observados em circunstâncias bem diversas entre si. Por exemplo, sons emitidos no acasalamento em cavalos adultos, muitas vezes, parecem sons de um potrinho pedindo alimento para sua mãe. Outro problema mais complexo é apontado por biólogos especialistas em evolução pois sinais diferentes de comunicação poderão aparecer para desafiar regras de seleção natural. Para que sinais vocais possam evoluir, em primeiro lugar, são conferidos alguns valores de sobrevivência ao animal que está emitindo o som. Não é suficiente dizer que certos sons determinam excitamento. A questão real é por que é uma vantagem individual em certas circunstâncias emitir esse tipo de som? Como isto funciona para aumentar as chances de sobrevivência? Assim, compreender o que um som realiza ao invés do que significa é o primeiro passo para compreender o que é comunicação animal. A linguagem humana é diferente pois seus sons são arbitrários, não existem sons usados para denominar coisas particularmente (o que é facilmente observável pois milhares de pessoas falam línguas diferentes para referir-se a mesma palavra). Tem-se descoberto que quando se trata de diversas espécies animais existe um padrão similar."
     },
     {
       "id": 3,
-      "title": "A importância do casqueamento em potros",
-      "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/138-A-import%C3%A2ncia-do-casqueamento-em-potros-370x247.jpg",
-      "author": "Mateus",
-      "slug": "a-importância-do-casqueamento-em-potros"
+      "title": "Leme recebeu etapa Pro Tie-Down Roping",
+      "slug": "leme-recebeu-etapa-pro-tie-down-roping",
+      "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/Pro-Tie-Down-em-Leme-4et-1.jpg",
+      "author": "Mateus Vinicius",
+      "cover": "https://avatars1.githubusercontent.com/u/37267490?s=400&v=4",
+      "resume": "Competição equilibrada com alto nível técnico de profissionais fez esta etapa ser mais uma prova acirrada em busca do prêmio de R$ 13.200,00",
+      "content": "A etapa teve 34 inscrições e premiou do primeiro ao quinto colocado, além da premiação extra de incentivo e para o Campeão Mach Roping – Loja Western. Marcos Paulo Tambolini ganhou a Aberta, já em segundo lugar ficou Zenilton Junior, o terceiro foi para Kenny Cunha, o quarto lugar do pódio ficou com KinYuda e a quinta posição foi de Bruno Renna, além da premiação de incentivo para Rookie Tiago Sanfelice. O grande campeão da Mach Roping foi Mario Francisco, de São Simão/SP."
     },
     {
       "id": 4,
       "title": "Brasileiro ganhou categoria na final de Ranch Sorting da RSNC",
+      "slug": "brasileiro-ganhou-categoria-na-final-de-ranch-sorting-da-rnsc",
       "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/Final-RSNC-Us-7-770x515.jpg",
       "author": "Thawan Keane",
-      "slug": "brasileiro-ganhou-categoria-na-final-de-ranch-sorting-da-rnsc"
+      "cover": "https://avatars0.githubusercontent.com/u/26743815?s=400&v=4",
+      "resume": "Entidade americana é independente, possui mais de 24 mil membros e sanciona cerca de três mil provas ao longo do ano",
+      "content": "A equipe brasileira fidelizada pela RSCN Brazil que foi participar das finais mundiais de Ranch Sorting deu show! A Cinch RSNC World Finals aconteceu de 9 a 15 de Junho, em Fort Worth, Texas, no famoso Will Rogers Coliseum. Foram distribuídos cerca de US$ 600 mil de premiação em dinheiro e ainda motos, selas e acessórios em geral. A organização registrou, aproximadamente, 5.980  inscrições, em várias divisões e formatos.  Segundo Alex Saleta, diretor da RSNC Brazil, que foi aos Estados Unidos, nas divisões de base, somatórias mais baixas, foi onde ocorreu o maior número de inscritos, com média de 550 inscrições por divisão."
     }
   ]
 }
