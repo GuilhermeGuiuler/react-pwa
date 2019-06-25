@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Inaugurada temporada de corridas de cavalos Árabes de 2019",
+      "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/The-Young-Black-Stallion-01-370x247.jpg",
+      "author": "Guilherme",
+      "slug": "inaugurada-temporada-de-corridas-de-cavalos-arabes-de-2019"
+    },
+    {
+      "id": 2,
+      "title": "Cavalos possuem comunicação vocal limitada, mas ela existe – parte 2",
+      "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/Cavalos-possuem-comunica%C3%A7%C3%A3o-vocal-limitada-mas-ela-existe-02-370x247.jpg",
+      "author": "Leo Campos",
+      "slug": "cavalos-possuem-comunicacao-vocal-limitada-mas-ela-existe-parte-2"
+    },
+    {
+      "id": 3,
+      "title": "A importância do casqueamento em potros",
+      "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/138-A-import%C3%A2ncia-do-casqueamento-em-potros-370x247.jpg",
+      "author": "Mateus",
+      "slug": "a-importância-do-casqueamento-em-potros"
+    },
+    {
+      "id": 4,
+      "title": "Brasileiro ganhou categoria na final de Ranch Sorting da RSNC",
+      "thumbnail": "https://cavalus.com.br/wp-content/uploads/2019/06/Final-RSNC-Us-7-770x515.jpg",
+      "author": "Thawan Keane",
+      "slug": "brasileiro-ganhou-categoria-na-final-de-ranch-sorting-da-rnsc"
+    }
+  ]
+}
