@@ -1,33 +1,34 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import api from "../services/api";
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import api from '../services/api'
 
 function Home() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([])
 
   async function getPosts() {
     try {
-      const response = await api.get("posts");
-      setPosts(response.data);
+      const response = await api.get('posts')
+      setPosts(response.data)
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
   }
 
   useEffect(() => {
-    getPosts();
-  }, []);
+    getPosts()
+  }, [])
 
   return (
     <main className="main">
-      {posts.map(post => (
+      <h1>DEPLOy</h1>
+      {/* {posts.map(post => (
         <Link key={post.id} className="post" to={`/details/${post.id}`}>
           <h3 className="title">{post.title}</h3>
           <img className="thumbnail" src={post.thumbnail} alt={post.title} />
         </Link>
-      ))}
+      ))} */}
     </main>
-  );
+  )
 }
 
-export default Home;
+export default Home
