@@ -1,11 +1,12 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.section``
 
-export const Post = styled.article`
+export const Post = styled(Link)`
   position: relative;
 
-  width: 330px;
+  width: 310px;
   height: 200px;
   padding: 0 20px 20px 15px;
   display: flex;
@@ -38,42 +39,6 @@ export const Cover = styled.img`
   height: 100%;
 
   object-fit: cover;
-`
-
-export const Profile = styled.div`
-  position: absolute;
-  z-index: 2;
-  top: 20px;
-  left: 15px;
-
-  line-height: 11px;
-`
-
-export const Thumbnail = styled.img`
-  position: absolute;
-  width: 35px;
-  height: 35px;
-
-  border: solid 2px #ffffff;
-  background-color: #a2a2a2;
-  border-radius: 100%;
-`
-
-export const Name = styled.p`
-  padding-left: 40px;
-  margin-top: 6px;
-
-  font-size: 13px;
-  font-weight: 500;
-  color: #fff;
-`
-
-export const Time = styled.time`
-  padding-left: 40px;
-
-  font-size: 11px;
-  font-weight: 500;
-  color: #fff;
 `
 
 export const Title = styled.h2`

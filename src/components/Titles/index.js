@@ -6,7 +6,7 @@ function Title({ titleText }) {
   return (
     <Container>
       <Text>{titleText}</Text>
-      <SeeAll>See All</SeeAll>
+      <SeeAll to="/details">See All</SeeAll>
     </Container>
   )
 }

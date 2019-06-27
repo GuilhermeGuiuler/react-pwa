@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   position: relative;
@@ -14,7 +15,7 @@ export const Text = styled.h1`
   font-size: 33px;
   color: ${colors.dark};
 `
-export const SeeAll = styled.a`
+export const SeeAll = styled(Link)`
   position: absolute;
   right: 30px;
   bottom: 0;
