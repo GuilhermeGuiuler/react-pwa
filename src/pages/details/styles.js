@@ -18,7 +18,7 @@ export const Image = styled.img`
   object-fit: cover;
 `
 export const BackButton = styled(Link)`
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
 
@@ -56,4 +56,12 @@ export const ButtonLike = styled.button`
   border-radius: 100%;
   box-shadow: 0px 7px 15px rgba(243, 80, 134, 0.422639);
   background: #f35086;
+`
+
+export const Content = styled.div`
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 25px;
+  color: #111;
+  font-weight: 600;
 `
