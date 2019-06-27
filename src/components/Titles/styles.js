@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   position: relative;
-  padding-right: 30px;
+  padding: 0 30px;
 `
 
 export const Text = styled.h1`

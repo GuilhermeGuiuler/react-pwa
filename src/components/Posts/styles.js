@@ -6,8 +6,8 @@ export const Container = styled.section``
 export const Post = styled(Link)`
   position: relative;
 
-  width: 310px;
-  height: 200px;
+  width: 300px;
+  height: 180px;
   padding: 0 20px 20px 15px;
   display: flex;
   align-items: flex-end;
@@ -52,6 +52,9 @@ export const Carrousel = styled.div`
   overflow-x: auto;
   overflow-y: hidden;
   will-change: transform;
+  &::-webkit-scrollbar {
+    height: 0;
+  }
 `
 
 export const CarrouselList = styled.div`
@@ -61,6 +64,12 @@ export const CarrouselList = styled.div`
 export const CarrouselListItem = styled.div`
   display: table-cell;
   vertical-align: middle;
+
+  &:first-of-type {
+    ${Post} {
+      margin-left: 25px;
+    }
+  }
 
   &:last-of-type {
     ${Post} {
