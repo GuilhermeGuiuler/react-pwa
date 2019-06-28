@@ -1,17 +1,19 @@
-import React from 'react'
+import React from "react";
+import { isIOS } from "react-device-detect";
 
-import Header from '../../components/Header'
-import Posts from '../../components/Posts'
-import Notification from '../../components/Notification'
+import Header from "../../components/Header";
+import Posts from "../../components/Posts";
+import Notification from "../../components/Notification";
 
 function Home() {
   return (
     <>
-      <Notification />
+      {!localStorage.getItem("@BLOGPWA:NOTIFICATION") &&
+        (!isIOS && <Notification />)}
       <Header />
       <Posts />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

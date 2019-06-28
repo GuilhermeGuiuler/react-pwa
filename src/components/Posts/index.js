@@ -27,31 +27,29 @@ function Posts() {
   }, [])
 
   return (
-    <>
+    <Container>
       <Titles titleText="Your Everyday Inspiration" />
-      <Container>
-        <Carrousel>
-          <CarrouselList>
-            {posts.map(post => (
-              <CarrouselListItem key={post._id}>
-                <Post to="/details">
-                  <Thumbnail
-                    pinned
-                    colorName="light"
-                    colorTime="light"
-                    name="Mateusinho"
-                    time="3 horas"
-                    photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
-                  />
-                  <Cover src={post.cover} />
-                  <Title>{post.title}</Title>
-                </Post>
-              </CarrouselListItem>
-            ))}
-          </CarrouselList>
-        </Carrousel>
-      </Container>
-    </>
+      <Carrousel>
+        <CarrouselList>
+          {posts.map(post => (
+            <CarrouselListItem key={post._id}>
+              <Post to="/details">
+                <Thumbnail
+                  pinned
+                  colorName="light"
+                  colorTime="light"
+                  name="Mateusinho"
+                  time="3 horas"
+                  photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
+                />
+                <Cover src={post.cover} />
+                <Title>{post.title}</Title>
+              </Post>
+            </CarrouselListItem>
+          ))}
+        </CarrouselList>
+      </Carrousel>
+    </Container>
   )
 }
 
