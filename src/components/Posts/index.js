@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import api from '../../services/api'
 
 import {
   Container,
@@ -14,68 +15,39 @@ import Titles from '../Titles'
 import Thumbnail from '../../components/Thumbnail'
 
 function Posts() {
+  const [posts, setPosts] = useState([])
+
+  async function getPosts() {
+    const response = await api.get('posts')
+    setPosts(response.data)
+  }
+
+  useEffect(() => {
+    getPosts()
+  }, [])
+
   return (
     <>
       <Titles titleText="Your Everyday Inspiration" />
       <Container>
         <Carrousel>
           <CarrouselList>
-            <CarrouselListItem>
-              <Post to="/details">
-                <Thumbnail
-                  pinned
-                  colorName="light"
-                  colorTime="light"
-                  name="Mateusinho"
-                  time="3 horas"
-                  photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
-                />
-                <Cover src="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg" />
-                <Title>Where passion and possibilities meet</Title>
-              </Post>
-            </CarrouselListItem>
-            <CarrouselListItem>
-              <Post to="/details">
-                <Thumbnail
-                  pinned
-                  colorName="light"
-                  colorTime="light"
-                  name="Mateusinho"
-                  time="3 horas"
-                  photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
-                />
-                <Cover src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/300px-GoldenGateBridge-001.jpg" />
-                <Title>Where passion and possibilities meet</Title>
-              </Post>
-            </CarrouselListItem>
-            <CarrouselListItem>
-              <Post to="/details">
-                <Thumbnail
-                  pinned
-                  colorName="light"
-                  colorTime="light"
-                  name="Mateusinho"
-                  time="3 horas"
-                  photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
-                />
-                <Cover src="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg" />
-                <Title>Where passion and possibilities meet</Title>
-              </Post>
-            </CarrouselListItem>
-            <CarrouselListItem>
-              <Post to="/details">
-                <Thumbnail
-                  pinned
-                  colorName="light"
-                  colorTime="light"
-                  name="Mateusinho"
-                  time="3 horas"
-                  photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
-                />
-                <Cover src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/300px-GoldenGateBridge-001.jpg" />
-                <Title>Where passion and possibilities meet</Title>
-              </Post>
-            </CarrouselListItem>
+            {posts.map(post => (
+              <CarrouselListItem key={post._id}>
+                <Post to="/details">
+                  <Thumbnail
+                    pinned
+                    colorName="light"
+                    colorTime="light"
+                    name="Mateusinho"
+                    time="3 horas"
+                    photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
+                  />
+                  <Cover src={post.cover} />
+                  <Title>{post.title}</Title>
+                </Post>
+              </CarrouselListItem>
+            ))}
           </CarrouselList>
         </Carrousel>
       </Container>
