@@ -33,16 +33,16 @@ function Posts() {
         <CarrouselList>
           {posts.map(post => (
             <CarrouselListItem key={post._id}>
-              <Post to="/details">
+              <Post to={`/detalhes/${post.slug}`}>
                 <Thumbnail
                   pinned
                   colorName="light"
                   colorTime="light"
-                  name="Mateusinho"
+                  name={post.author}
                   time="3 horas"
-                  photo="https://www.urbanarts.com.br/imagens/produtos/111149/Detalhes/paisagem-abstrata-5.jpg"
+                  photo={post.cover}
                 />
-                <Cover src={post.cover} />
+                <Cover src={post.thumbnail} />
                 <Title>{post.title}</Title>
               </Post>
             </CarrouselListItem>
