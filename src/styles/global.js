@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
-import reset from 'styled-reset-advanced'
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset-advanced";
 
 export const GlobalStyles = createGlobalStyle`
   ${reset}
@@ -13,4 +13,8 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'Raleway', sans-serif;
   }
-`
+
+  html:not(.hydrated) body {
+    display: block;
+  }
+`;

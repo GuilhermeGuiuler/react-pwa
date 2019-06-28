@@ -8,7 +8,8 @@ import Notification from "../../components/Notification";
 function Home() {
   return (
     <>
-      {!isIOS && <Notification />}
+      {!localStorage.getItem("@BLOGPWA:NOTIFICATION") &&
+        (!isIOS && <Notification />)}
       <Header />
       <Posts />
     </>
